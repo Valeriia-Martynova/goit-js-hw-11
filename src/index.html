@@ -9,18 +9,18 @@
   </head>
   <body>
     <header>
-      <form id="search-form">
+      <form class="search-form">
         <input
           type="text"
-          name="query"
+          name="searchQuery"
           placeholder="Search images..."
-          autocomplete="off"
+          required
         />
         <button type="submit">Search</button>
       </form>
     </header>
 
-    <div class="loader" style="display: none">Loading...</div>
+    <div class="loader hidden"></div>
 
     <main>
       <div class="gallery"></div>
